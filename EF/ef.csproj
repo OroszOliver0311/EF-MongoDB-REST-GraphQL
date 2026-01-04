@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ef</RootNamespace>
+    <AssemblyName>ef</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="f1.png" />
+    <None Remove="f2.png" />
+    <None Remove="neptun.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.5.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.5.2" />
+  </ItemGroup>
+
+</Project>
